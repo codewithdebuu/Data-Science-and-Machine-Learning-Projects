@@ -12,7 +12,7 @@
         Project Type: <strong>Supervised Machine Learning Classification</strong>
     </p>
     <!-- ===================================================== -->
-    <h3>1. Executive Summary</h3>
+    <h2>1. Executive Summary</h2>
     <p>
         This report presents the results of a machine learning project aimed at
         classifying gender using structured facial measurements. The analysis
