@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Gender Classification Report</title>
 </head>
 <body>
     <h1>Gender Classification Using Facial Features</h1>
@@ -59,6 +58,7 @@
         indicates stable distributions with minimal skewness. Mean, median, and mode
         values are closely aligned, suggesting reliable data quality.
     </p>
+    
     <h3>4.2 Correlation Analysis</h3>
     <p>
         Correlation analysis shows that nose-related features and facial distance
