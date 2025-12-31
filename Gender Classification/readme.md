@@ -1,70 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gender Classification Report</title> -->
-    <!-- <style>
-        body {
-            font-family: "Segoe UI", Arial, sans-serif;
-            line-height: 1.6;
-            margin: 40px;
-            color: #222;
-            background-color: #ffffff;
-        }
-        h1, h2, h3 {
-            color: #1f2933;
-        }
-        h1 {
-            border-bottom: 2px solid #1f2933;
-            padding-bottom: 10px;
-        }
-        h2 {
-            margin-top: 40px;
-            border-left: 4px solid #1f2933;
-            padding-left: 10px;
-        }
-        h3 {
-            margin-top: 25px;
-        }
-        p {
-            margin: 10px 0;
-            text-align: justify;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        table th, table td {
-            border: 1px solid #cccccc;
-            padding: 10px;
-            text-align: center;
-        }
-        table th {
-            background-color: #f3f4f6;
-        }
-        .meta {
-            margin-top: 10px;
-            color: #555;
-        }
-        .section-note {
-            background-color: #f9fafb;
-            border-left: 4px solid #9ca3af;
-            padding: 10px;
-            margin: 15px 0;
-        }
-        footer {
-            margin-top: 60px;
-            border-top: 1px solid #cccccc;
-            padding-top: 10px;
-            font-size: 0.9em;
-            color: #555;
-        }
-    </style> -->
+
 </head>
 
 <body>
