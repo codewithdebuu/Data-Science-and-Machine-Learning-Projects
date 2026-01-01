@@ -60,7 +60,7 @@
             values are closely aligned, suggesting reliable data quality.
         </p>
         <img src="./Images/01_Histplot.png" alt="Histplot"/>
-        <!-- <img src="./Images/03_Pairplot.png" alt="Pairplot"  height="600" width="1500"/> -->
+        <img src="./Images/03_Pairplot.png" alt="Pairplot"  height="600" width="1500"/>
         <img src="./Images/04_Scatterplot.png" alt="Scatterplot"/>
         <h3>4.2 Correlation Analysis</h3>
         <p>
@@ -68,7 +68,7 @@
             measurements have strong relationships with the target variable. Hair length
             exhibits minimal correlation and limited predictive importance.
         </p>
-        <img src="./Images/02_Correlation.png" alt="Correlation Matrix"/>
+        <img src="./Images/02_Heatmap.png" alt="Correlation Matrix"/>
         <h3>4.3 Feature Interaction</h3>
         <p>
             Pairwise feature analysis reveals visible separation patterns between gender
@@ -161,7 +161,7 @@
             classifications with very few false positives and false negatives, indicating
             strong generalization performance.
         </p>
-        <img src="./Images/03_Confusion_Matrix.png" alt="Confusion Matrix"/>
+        <img src="./Images/06_Confusion_Matrix.png" alt="Confusion Matrix"/>
         <h2>8. Key Insights</h2>
         <ul>
             <li>Facial geometry features are strong predictors of gender</li>
