@@ -191,7 +191,6 @@
             and is recommended for real-world deployment.
         </p>
         <hr>
-
     </main>
     <footer>       
         <p>
