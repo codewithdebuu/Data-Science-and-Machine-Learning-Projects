@@ -157,14 +157,13 @@
             </tr>
         </table>
         <img src="./Images/05_Best_model_barplot.png" alt="Best_model_barplot.png"/>
-
         <h2>7. Confusion Matrix Analysis</h2>
         <p>
             The confusion matrix of the AdaBoost model shows a high number of correct
             classifications with very few false positives and false negatives, indicating
             strong generalization performance.
         </p>
-        <img src="./Images/03_Confusion_Matrix.png" alt="Confusion Matrix"/>
+        <img src="./Images/06_Confusion_Matrix.png" alt="Confusion Matrix"/>
         <h2>8. Key Insights</h2>
         <ul>
             <li>Facial geometry features are strong predictors of gender</li>
