@@ -60,7 +60,7 @@
             values are closely aligned, suggesting reliable data quality.
         </p>
         <img src="./Images/01_Histplot.png" alt="Histplot"/>
-        <img src="./Images/03_Pairplot.png" alt="Pairplot"  height="600" width="1500"/>
+        <img src="./Images/03_Pairplot.png" alt="Pairplot"/>
         <img src="./Images/04_Scatterplot.png" alt="Scatterplot"/>
         <h3>4.2 Correlation Analysis</h3>
         <p>
