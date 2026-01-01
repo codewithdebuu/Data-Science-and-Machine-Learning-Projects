@@ -58,7 +58,7 @@
         indicates stable distributions with minimal skewness. Mean, median, and mode
         values are closely aligned, suggesting reliable data quality.
     </p>
-	<img src="./Images/01_Histplot.png" alt="Histplot"/>
+	<img src="./Images/01_Histplot.png" alt="Histplot" tergate="abc"/>
     <h3>4.2 Correlation Analysis</h3>
     <p>
         Correlation analysis shows that nose-related features and facial distance
