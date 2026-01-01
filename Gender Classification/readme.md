@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <main>
+    <header>
         <h1>Gender Classification Using Facial Features</h1>
         <p>
             <strong>Prepared by:</strong> Debashis Ray<br>
@@ -12,6 +12,8 @@
             <strong>Project Type:</strong> Supervised Machine Learning Classification
         </p>
         <hr>
+    </header>
+    <main>
         <h2>1. Executive Summary</h2>
         <p>
             This report presents the results of a machine learning project designed to
@@ -59,16 +61,16 @@
             indicates stable distributions with minimal skewness. Mean, median, and mode
             values are closely aligned, suggesting reliable data quality.
         </p>
-        <img src="./Images/01_Histplot.png" alt="Histplot"/>
-        <img src="./Images/03_Pairplot.png" alt="Pairplot"/>
-        <img src="./Images/04_Scatterplot.png" alt="Scatterplot"/>
+        <img src="./Images/01_Histplot.png" alt="Histplot"/><br>
+        <img src="./Images/03_Pairplot.png" alt="Pairplot"  /><br>
+        <img src="./Images/04_Scatterplot.png" alt="Scatterplot"/><br>
         <h3>4.2 Correlation Analysis</h3>
         <p>
             Correlation analysis shows that nose-related features and facial distance
             measurements have strong relationships with the target variable. Hair length
             exhibits minimal correlation and limited predictive importance.
         </p>
-        <img src="./Images/02_Heatmap.png" alt="Correlation Matrix"/>
+        <img src="./Images/02_Correlation.png" alt="Correlation Matrix"/>
         <h3>4.3 Feature Interaction</h3>
         <p>
             Pairwise feature analysis reveals visible separation patterns between gender
@@ -155,13 +157,14 @@
             </tr>
         </table>
         <img src="./Images/05_Best_model_barplot.png" alt="Best_model_barplot.png"/>
+
         <h2>7. Confusion Matrix Analysis</h2>
         <p>
             The confusion matrix of the AdaBoost model shows a high number of correct
             classifications with very few false positives and false negatives, indicating
             strong generalization performance.
         </p>
-        <img src="./Images/06_Confusion_Matrix.png" alt="Confusion Matrix"/>
+        <img src="./Images/03_Confusion_Matrix.png" alt="Confusion Matrix"/>
         <h2>8. Key Insights</h2>
         <ul>
             <li>Facial geometry features are strong predictors of gender</li>
@@ -189,10 +192,13 @@
             and is recommended for real-world deployment.
         </p>
         <hr>
+
+    </main>
+    <footer>       
         <p>
             <strong>Confidential Client Report</strong><br>
             For authorized use only.
         </p>
-    </main>
+    </footer>
 </body>
 </html>
