@@ -36,7 +36,7 @@
         classification tasks.
     </p>
     <h3>3.1 Features</h3>
-    <ul>
+    <ul type="square">
         <li>Long hair</li>
         <li>Forehead width (cm)</li>
         <li>Forehead height (cm)</li>
@@ -76,44 +76,79 @@
         train-test splits. Model performance was assessed using accuracy, precision,
         recall, and F1-score, with emphasis on balanced performance.
     </p>
-    <ul>
+    <ul type="square">
         <li>Logistic Regression</li>
-        <li>Support Vector Machine</li>
-        <li>Gaussian Naive Bayes</li>
-        <li>Linear Discriminant Analysis</li>
-        <li>Quadratic Discriminant Analysis</li>
-        <li>K-Nearest Neighbors</li>
+        <li>Decision Trees</li>
         <li>Random Forest</li>
         <li>Extra Trees</li>
-        <li>Bagging</li>
+        <li>Support Vector Machines(SVM)</li>
+        <li>K-Nearest Neighbors(KNN)</li>
+        <li>Gaussian Naive Bayes</li>
         <li>Gradient Boosting</li>
         <li>AdaBoost</li>
-        <li>SGD Classifier</li>
-        <li>Passive Aggressive</li>
+        <li>Bagging</li>
+        <li>Stochastic Gradient Descent Classifier (SGD)</li>
+        <li>Passive-Aggressive Classifier</li>
+        <li>Linear Discriminant Analysis (LDA)</li>
+        <li>Quadratic Discriminant Analysis (QDA)</li>
     </ul>
-    <h2>6. Model Performance Summary</h2>
-    <table border="1" cellpadding="5" cellspacing="0">
-        <tr>
-            <th>Model</th>
-            <th>F1-Score</th>
-        </tr>
-        <tr>
-            <td>AdaBoost</td>
-            <td>96.77%</td>
-        </tr>
-        <tr>
-            <td>Support Vector Machine</td>
-            <td>96.75%</td>
-        </tr>
-        <tr>
-            <td>Gradient Boosting</td>
-            <td>96.75%</td>
-        </tr>
-        <tr>
-            <td>Gaussian Naive Bayes</td>
-            <td>96.16%</td>
-        </tr>
-    </table>
+<h2>6. Model Performance Summary</h2>
+<table cellpadding="20" cellspacing="0">
+	<tr>
+		<td valign="top">
+			<h2>Model Performance Summary (F1 Score)</h2>
+			<table border="1" cellpadding="6" cellspacing="0">
+				<tr>
+					<th>Model</th>
+					<th>Accuracy</th>
+					<th>Precision</th>
+					<th>Recall</th>
+					<th>F1 Score</th>
+				</tr>
+				<tr bgcolor="lightgreen"><td>AdaBoost</td><td>96.45</td><td>97.18</td><td>96.36</td><td bgcolor="orrenge">96.77</td></tr>
+				<tr><td>SVM</td><td>96.45</td><td>97.71</td><td>95.80</td><td>96.75</td></tr>
+				<tr><td>Gradient Boosting</td><td>96.45</td><td>97.71</td><td>95.80</td><td>96.75</td></tr>
+				<tr><td>Gaussian NB</td><td>95.83</td><td>97.69</td><td>94.68</td><td>96.16</td></tr>
+				<tr><td>QDA</td><td>95.67</td><td>96.87</td><td>95.24</td><td>96.05</td></tr>
+				<tr><td>Random Forest</td><td>95.52</td><td>95.05</td><td>96.92</td><td>95.98</td></tr>
+				<tr><td>KNN</td><td>95.21</td><td>96.05</td><td>95.24</td><td>95.64</td></tr>
+				<tr><td>Extra Trees</td><td>95.05</td><td>94.77</td><td>96.36</td><td>95.56</td></tr>
+				<tr><td>Bagging</td><td>95.05</td><td>96.03</td><td>94.96</td><td>95.49</td></tr>
+				<tr><td>SGD Classifier</td><td>94.90</td><td>95.00</td><td>95.80</td><td>95.40</td></tr>
+				<tr><td>LDA</td><td>94.90</td><td>96.02</td><td>94.68</td><td>95.35</td></tr>
+				<tr><td>Decision Tree</td><td>94.74</td><td>94.74</td><td>95.80</td><td>95.26</td></tr>
+				<tr><td>Logistic Regression</td><td>94.13</td><td>94.68</td><td>94.68</td><td>94.68</td></tr>
+				<tr><td>Passive Aggressive</td><td>92.74</td><td>93.79</td><td>93.00</td><td>93.39</td></tr>
+			</table>
+		</td>
+		<td valign="top">
+			<h2>Error Breakdown (Sorted by FN)</h2>
+			<table border="1" cellpadding="6" cellspacing="0">
+				<tr>
+					<th>Model</th>
+					<th>TN</th>
+					<th>FP</th>
+					<th>FN</th>
+					<th>TP</th>
+				</tr>
+				<tr><td>Random Forest</td><td>272</td><td>18</td><td>11</td><td>346</td></tr>
+				<tr><td>Extra Trees</td><td>271</td><td>19</td><td>13</td><td>344</td></tr>
+				<tr bgcolor="lightgreen"><td>AdaBoost</td><td>280</td><td>10</td><td>13</td><td>344</td></tr>
+				<tr><td>SGD Classifier</td><td>272</td><td>18</td><td>15</td><td>342</td></tr>
+				<tr><td>SVM</td><td>282</td><td>8</td><td>15</td><td>342</td></tr>
+				<tr><td>Decision Tree</td><td>271</td><td>19</td><td>15</td><td>342</td></tr>
+				<tr><td>Gradient Boosting</td><td>282</td><td>8</td><td>15</td><td>342</td></tr>
+				<tr><td>QDA</td><td>279</td><td>11</td><td>17</td><td>340</td></tr>
+				<tr><td>KNN</td><td>276</td><td>14</td><td>17</td><td>340</td></tr>
+				<tr><td>Bagging</td><td>276</td><td>14</td><td>18</td><td>339</td></tr>
+				<tr><td>Logistic Regression</td><td>271</td><td>19</td><td>19</td><td>338</td></tr>
+				<tr><td>LDA</td><td>276</td><td>14</td><td>19</td><td>338</td></tr>
+				<tr><td>Gaussian NB</td><td>282</td><td>8</td><td>19</td><td>338</td></tr>
+				<tr><td>Passive Aggressive</td><td>268</td><td>22</td><td>25</td><td>332</td></tr>
+			</table>
+		</td>
+	</tr>
+</table>
     <h2>7. Confusion Matrix Analysis</h2>
     <p>
         The confusion matrix of the AdaBoost model shows a high number of correct
